@@ -1,3 +1,7 @@
+package Day01
+
+import readInput
+
 fun main() {
     fun computeElfCalories(
         i: Int,
