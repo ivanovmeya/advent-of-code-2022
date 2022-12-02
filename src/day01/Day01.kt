@@ -1,4 +1,4 @@
-package Day01
+package day01
 
 import readInput
 
@@ -73,7 +73,7 @@ fun main() {
     check(test1Result == 24000)
     check(test2Result == 45000)
 
-    val input = readInput("Day01")
+    val input = readInput("day01")
     check(part1(input) == 74198)
     check(part2(input) == 209914)
 }
