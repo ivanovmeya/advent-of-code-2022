@@ -63,7 +63,7 @@ fun main() {
         return topThreeMaxCalories.sum()
     }
 
-    val testInput = readInput("Day01_test")
+    val testInput = readInput("day01/Day01_test")
     val test1Result = part1(testInput)
     val test2Result = part2(testInput)
 
@@ -73,7 +73,7 @@ fun main() {
     check(test1Result == 24000)
     check(test2Result == 45000)
 
-    val input = readInput("day01")
+    val input = readInput("day01/day01")
     check(part1(input) == 74198)
     check(part2(input) == 209914)
 }
