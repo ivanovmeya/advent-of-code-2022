@@ -58,7 +58,7 @@ fun main() {
         }
     }
 
-    val testInput = readInput("day03/input_test.txt")
+    val testInput = readInput("day03/input_test")
     val test1Result = part1(testInput)
     val test2Result = part2(testInput)
 
